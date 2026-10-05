@@ -20,21 +20,23 @@ namespace FacadePattern
 
         public void On()
         {
-
+            Console.WriteLine("Projector on");
         }
 
         public void Off()
         {
-
+            Console.WriteLine("Projector off");
         }
 
         public void TvMode()
         {
-
+            Console.WriteLine("Projector in TV mode");
         }
 
         public void WideScreenMode()
         {
+            Console.WriteLine("Projector in wide screen mode");
+        }
 
         }
     }
